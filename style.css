@@ -16,7 +16,7 @@ font-style: normal;
   position: fixed;
   top: 0px;
   left: 0px;
-  width: 100%;
+  width: 0%;
   background-color: white;
   /* https://stackoverflow.com/questions/3331353/transitions-on-the-css-display-property */
   overflow: hidden;  /* Hide the element content, while height = 0 */
@@ -26,7 +26,7 @@ font-style: normal;
 }
 
 #background.visible {
- height: 100%; opacity: 0;
+ height: 0%; opacity: 0;
     transition: height 0ms 0ms, opacity 600ms 0ms;
 }
 
