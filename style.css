@@ -26,7 +26,7 @@ font-style: normal;
 }
 
 #background.visible {
- height: 100%; opacity: 1;
+ height: 100%; opacity: 0;
     transition: height 0ms 0ms, opacity 600ms 0ms;
 }
 
